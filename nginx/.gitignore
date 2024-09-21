@@ -1,2 +1,3 @@
 # ignore website files
 website/*
+!website/index.php
