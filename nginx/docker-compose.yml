@@ -33,7 +33,7 @@ services:
       MARIADB_USER: my_user
       MARIADB_PASSWORD: my_password
     volumes:
-      - ./db_data:/var/lib/mysql
+      - db_data:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - lemp-stack
